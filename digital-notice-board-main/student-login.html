@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="Landing">
+    <div class="container">
+        <div class="Heading">
+            <h1>Student Login</h1>
+        </div>
+        
+        <div class="forms" id="student-form">
+            <form>
+               <div class="inputs">
+                <label for="student-uname">Username :</label>  
+                <input type="text" placeholder="Username" id="student-uname" >
+               </div>
+
+               <div class="inputs">
+                <label for="student-pass">Password :</label>
+                <input type="password" placeholder="Password" id="student-pass">
+                </div>
+                
+                <button type="submit" class="b1 login">Login</button>
+           </form>
+        </div>
+    </div>
+    <script>
+let form = document.getElementById("student-form");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    let username = document.getElementById("student-uname").value;
+    let password = document.getElementById("student-pass").value;
+
+    if (username === "student" && password === "4567") {
+        alert("Login successful");
+        window.location.href = "student-dashboard.html";
+    } else {
+        alert("Invalid username or password");
+    }
+});
+</script>
+</body>
+</html>

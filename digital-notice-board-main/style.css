@@ -1,0 +1,164 @@
+.Landing {
+    background-color: #778688;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: rgba(255, 255, 255, 0.2); 
+    padding: 30px;
+    border-radius: 15px;
+    width: 380px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+.Heading{
+    background-color:rgb(97, 98, 143);
+    padding:15px;
+    border:0.5rem solid rgb(75, 76, 139);
+    border-radius:10px;
+    margin-bottom:20px;
+    color:white;
+}
+.b1{
+    background-color:rgb(166, 166, 209);
+    height:30px;
+    width:100px;
+    border-radius:5px;
+    margin:10px;
+    cursor: pointer;
+    font-weight: 700;
+    border:none;
+}
+.login
+{
+    margin-left:150px;
+}
+.b1:hover{
+    background-color: rgb(115, 115, 169);
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.inputs{
+    font-weight:550;
+}
+input{
+    /* border:1px solid black; */
+    border-radius:0.3rem;
+}
+.admin-body
+{
+    background-color: #C4B7CB;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.head
+{
+    background-color:  #294C60;
+    color:white;
+    justify-content: center;
+    align-items: center;  
+    display:flex;
+    font-family: "Cause", cursive;
+    font-weight:600; 
+     padding:20px;
+    border-radius:1rem;
+    margin-bottom:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    position:sticky;
+    top:0;
+}
+.form-group
+{
+    font-family: "Cause", cursive;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.btn
+{
+    font-family: "Cause", cursive;
+    font-weight:600;
+    width:100px;
+    height:30px;
+    background-color:rgb(138, 170, 170);
+    border-radius: 0.5rem;
+     /* display:flex;
+    justify-content:center;
+    align-items:center;  */
+}
+.btn:hover{
+    background-color:#294C60;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+.notice-section{
+    font-family: "Cause", cursive;
+    font-weight:600;
+    font-size:0.8rem;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius:1rem;
+    padding:10px;
+    margin:10px;
+}
+
+.notice-form-card{
+    background:rgb(114, 100, 152);
+    padding:20px;
+    border-radius:1rem;
+    margin-bottom:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    
+}
+.admin-container{
+    width:100%;
+    max-width:900px;
+    margin:auto;
+}
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:0.5rem;
+    border:1px solid #999;
+    box-sizing:border-box; font-family: "Cause", cursive;
+    font-weight:600;
+}
+.student-body
+{
+background-color: #C4B7CB;
+}
+
+.notice-form-card2{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    flex-wrap:wrap;
+    background:rgb(114, 100, 152);
+    padding:20px;
+    border-radius:1rem;
+    margin-bottom:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+.in{
+width:200px;
+}
+#student-container
+{
+    font-family: "Cause", cursive;
+    font-weight:600;
+    font-size:0.8rem;
+    padding:20px;
+    background-color: antiquewhite;
+    border-radius:1rem;
+    padding:10px;
+    margin:10px;
+}
